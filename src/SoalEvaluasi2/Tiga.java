@@ -56,6 +56,7 @@ public class Tiga {
 			 System.out.println("Hasil ke-" + (j+1) + " adalah :");
 			 System.out.println(sum);
 			 System.out.println("===================================");
+			 
 		}
 		
 	}
