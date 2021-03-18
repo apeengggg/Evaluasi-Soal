@@ -12,7 +12,9 @@ public class Dua {
 		String kolom = bk_[1];
 		int b = Integer.parseInt(baris);
 		int k = Integer.parseInt(kolom);
-		
+		if(b<=0 && k<=50){
+			System.out.println("Cek kembali baris dan kolom, baris tidak boleh < atau = 0, dan kolom tidak boleh >50");
+		}else{
 //		for(int i=1; i<=b; i++){
 //			for(int j=1; j<=k; j++){
 //				System.out.print("-Kolom-" + "\t");
@@ -299,7 +301,7 @@ public class Dua {
         		}
         	}
         	System.out.println();
-        }
+        	}
+		}
 	}
-
 }
